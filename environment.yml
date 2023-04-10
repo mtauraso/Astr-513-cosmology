@@ -1,0 +1,21 @@
+name: Astro513
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+# Commented out ones are from prior homework dependencies so I don't forget package names
+  #- astroquery
+  - astropy
+  - numpy
+  - sympy
+  - scipy
+  #- pytables
+  - matplotlib
+  # I think this stuff might be needed for more subtle uses of matplotlib, like dynamic plots
+  - ipykernel
+  #- ipympl
+  #- plotly
+  #- ipywidgets
+
+  # SO I can convert to PDF
+  - nbconvert
